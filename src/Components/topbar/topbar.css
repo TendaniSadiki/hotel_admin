@@ -1,0 +1,129 @@
+
+/*Mobile*/
+@media (max-width: 900px) {
+  .Navigation{
+    display: none;
+  }
+  
+  /*Mobile Nav Content*/
+  .MobileTopBar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: white 1px ridge;
+  }
+  /*Open Menu Bar*/
+  .MobileTopBar .menubtn{
+    position: absolute;
+    right: 5%;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 1.5rem; 
+  }
+  /*Close Menu Bar*/
+  .MobileTopBar .closebtn{
+    position: absolute;
+    right: 5%;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  /*Hover Open Menu Bar*/
+  .MobileTopBar .fa-bars:hover{
+    color: blueviolet;
+    background: white;
+  }
+  /*Links*/
+  .MobileTopBar span i{
+    color: rgb(255, 254, 254);
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .MobileTopBar span h4{
+    color: antiquewhite;
+    font-size:1rem
+  }
+  /*Links Content*/
+  .MobileTopBar .linksContainer {
+    display: flex;
+    flex-direction: column;
+    top: 60px;
+    position: absolute;
+    left: 0;
+    padding: 8px;
+    background: #181818;
+    width: 100%;
+  }
+}
+
+
+/*Computer screen*/
+@media (min-width: 900px) {
+  .MobileTopBar{
+    display: none;
+  }
+}
+.Navigation{
+  width: 100%;
+  height: 50px;
+  top: 0;
+  position: fixed;
+  left: 0;
+  background:#F6F5F3;
+
+}
+.linksContainer{
+  color: rgb(0, 0, 0);
+  background:#f6f5f3;
+  top: 0;
+  left: 0;
+
+}
+.rightNav{
+  text-align:center;
+}
+/*Break none*/
+.Navigation .linksContainer br{
+  display: none;
+}
+.Navigation span{
+  
+  
+}
+/*Icons by default*/
+.Navigation span i{
+  display: inline-block;
+  margin: 1vw;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  font-style: normal;
+  padding-left: 30px;
+  
+}
+.Navigation span i:hover{
+  border-bottom: 2px solid rgb(0, 0, 0);
+  color:black;
+  }
+  
+/*Sign out button*/
+.Navigation .linksContainer .rightNavContent{
+  position: absolute;
+  right: -30%;
+  padding: 8px;
+  font-size: 40px;
+  font-weight: bold;
+  margin: -10px;
+  width: 80%;
+  top: 0;
+  
+  
+}
+.Navigation .linksContainer .leftNavContent{
+  left: 5%;
+  width: 20%;
+}
+
