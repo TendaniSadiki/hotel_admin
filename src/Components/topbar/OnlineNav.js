@@ -47,6 +47,8 @@ const logout = async () =>{
                     </NavLink>
                     <NavLink to="./" activestyle={{color: 'black'}} exact onClick={() =>{ props.isMobile && props.closeMobileMenu(); window.location="/Book"}} ><span><i >Book</i></span>
                     </NavLink>
+                    <NavLink to="./" activestyle={{color: 'black'}} exact onClick={() =>{ props.isMobile && props.closeMobileMenu(); window.location="/AddRoom"}} ><span><i >Add Room</i></span>
+                    </NavLink>
                     <NavLink to="./" activestyle={{color: 'black'}} exact onClick={logout} ><span ><i>Log Out</i></span>
                     </NavLink>
                     </div>
