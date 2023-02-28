@@ -10,6 +10,8 @@ import Rooms from '../Components/Rooms/Rooms';
 import SIgnup from '../Components/SIgnup/SIgnup';
 import Book from '../Components/Book/Book';
 import AddRoom from '../Components/AddRoom/AddRoom';
+// import { PayStack } from '../Components/PayStack/PayStack';
+
 
 
 
@@ -19,7 +21,7 @@ import AddRoom from '../Components/AddRoom/AddRoom';
 
 const AuthRoutes = () =>{
     const [loginState, setLoginState] = useState(null);
-    const [Objrooms,getObjRooms]=useState([{room:"Gold room",price:4000}]);
+    const [Objrooms]=useState([{room:"Gold room",price:4000}]);
     const auth = getAuth();
     onAuthStateChanged(auth, (user) => {
       if (user) {
@@ -46,6 +48,8 @@ const AuthRoutes = () =>{
                 <Route exact path="/Rooms" element={<Rooms/>}/>
                 <Route exact path="/Book" element={<Book/>}/>
                 <Route exact path="/AddRoom" element={<AddRoom/>}/>
+                {/* <Route exact path="/PayStack" element={<PayStack/>}/> */}
+
                 {
                 //Offline Handler
             }

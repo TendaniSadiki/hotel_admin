@@ -1,0 +1,196 @@
+.AddRoom{
+    margin: 10px;
+    overflow: hidden;
+}
+.rightSideProductsInfo{
+    margin-top: 60px;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    box-shadow: 0 5px 0 rgba(black);
+}
+.imageContent{
+    float: left;
+    margin-left: 50px;
+}
+#image{
+    width: 80px;
+    height: 80px;
+}
+.formProduct{
+    width: 50%;
+    float: left;
+    box-shadow: black 3px;
+    height: 90%;
+    border-radius: 15px;
+}
+.Addprod{
+    background: #cc0000;
+    margin-top:100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70vh;
+    border-radius: 15px;
+}
+.Addprod input::placeholder{
+    text-align: center;
+    color: black;
+    margin-left: 10px;
+}
+.Addprod input:hover{
+    background-color: #ffcc33;
+      /* transform: skew(-25deg); */
+    
+}
+.Addprod select{
+    
+    /* transform: skew(-25deg); */
+    padding: 10px 40px;
+    border-radius: 15px;
+    background-color: #ffcc33;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.Addprod select option{
+ font-size: medium;
+
+ cursor: pointer;
+}
+.roomName{
+    background-color: #ffcc33;
+    height: 2rem;
+    border: 1px groove black;
+    margin-top: 10px;
+}
+.imgDiv{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 180px;
+    margin-right: 110px;
+}
+.imgDiv input{
+    height: 80px;
+}
+.textArea textarea:hover{
+    background: #ffcc33;
+    color: black;
+}
+.addRoomBtnContent{
+     transform: skew(-25deg);
+}
+input, select, textarea, button{
+    cursor: pointer;
+}
+.textArea textarea{
+    width: 330px;
+    max-width: 330px;
+    min-width: 660;
+    text-align: center;
+    margin-top: 70px;
+    height: 140px;
+    max-height: 140px;
+    min-width: 280px;
+    border-radius: 15px;
+    transition: 0.5s;
+
+}
+.addRoomBtn{
+    background-color: #ffcc33;
+    width: 80px;
+    height: 40px;
+    transition: 0.3s;
+    border: none;
+    text-align: center;
+    
+}
+.addRoomBtn a{
+    transform: skew(26deg);
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    width: 100%;
+    color: black;
+}
+.addRoomBtn:hover{
+    
+    background-color: #ffcc33;
+    width: 90px;
+    height: 50px;
+    
+}
+
+
+.AddFutures{
+    width: 50%;
+    float: right;
+    background-color: #ffcc33;
+    height: 90%;
+    border-radius: 15px;
+}
+.AddFutures select{
+    border-radius: 10px;
+    font-size: medium;
+    padding: 5px 30px;
+    background-color: #cc0000;
+    color: white;
+    border: none;
+}
+.numberOfPp{
+    font-size: 1.5rem;
+}
+.form-control-input{
+    padding: 10px;
+    background-color:rgba(255, 4, 0, 0.616);
+    transition: 0.3s;
+}
+.form-control-input:hover{
+    background-color: #cc0000;
+    border-radius: 10px;
+    color: white;
+}
+.Price{
+    text-align: center;
+    height: 2rem;
+    border: 1px ridge black;
+    margin-top: 10px;
+}
+ .viewRoomImages{
+
+ }
+ .viewRoomImages img{
+    margin: 20px;
+    height: 120px;
+    width: 120px;
+ }
+ .futureTextArea{
+    width: 330px;
+    max-width: 330px;
+    min-width: 660;
+    text-align: center;
+    margin-top: 20px;
+    height: 140px;
+    max-height: 140px;
+    min-width: 280px;
+    border-radius: 15px;
+    transition: 0.5s;
+ }
+ .addBtn{
+    background-color: #cc0000;
+    width: 80px;
+    height: 40px;
+    transition: 0.3s;
+    border: none;
+    color: white;
+    text-align: center;
+ }
+ .addBtn a{
+    transform: skew(26deg);
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    width: 100%;
+    color: black;
+ }
